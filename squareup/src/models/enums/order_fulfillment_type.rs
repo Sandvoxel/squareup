@@ -12,4 +12,6 @@ pub enum OrderFulfillmentType {
     Shipment,
     /// A courier to deliver the fulfillment.
     Delivery,
+    /// A digital order of intangible product
+    Digital,
 }
